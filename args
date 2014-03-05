@@ -1,0 +1,7 @@
+#! /usr/bin/env python
+
+#args[0] is the base cost for the meal, $50.00
+#args[1] is the tip as a decimal, 20%
+#args[2] is tax rate as decimal. Since we live in San Francisco, we went with the absurdly high local sales tax 9.5%.
+
+args = [50.00, .2, .095]
