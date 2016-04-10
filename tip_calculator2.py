@@ -12,7 +12,7 @@ total = meal_with_tax + tip_value
 
 print("\n\nThe base cost of your meal is ${0:.2f}. ".format(meal))
 print("Your tax value is ${0:.2f}. ".format(tax_value))
-print("If you tip at a rate of {0:.2f}%, you ought to leave ${1:.2f} as a tip.".format(int(tip*100), tip_value)) 
+print("If you tip at a rate of {0:.2%}, you ought to leave ${1:.2f} as a tip.".format(tip, tip_value)) 
 print("Your meal total is ${0:.2f}. ".format(total))
 
 raw_input("\n\n Press any key to exit...")
